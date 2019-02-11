@@ -21,10 +21,9 @@
     height: auto;
     margin: 0 auto;
 }
-.header-top-height{height: 30px}
- .header-height{height: 200px;}
- .menu-height{height: 50px;}
- .content-height{ height: 600px;}
- .content-top-height{height: 300px;}
- .big-footer-height{height: 300px;}
- .footer-height{height: 50px;}
+.header-height{height: 200px;}
+.menu-height{height: 150px;}
+.content-height{ height: 600px;}
+.content-top-height{height: 300px;}
+.big-footer-height{height: 300px;}
+.footer-height{height: 50px;}
