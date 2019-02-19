@@ -1,93 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bootstrap</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="src/img/loop.png">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body>
-<div class="container">
-    <div class="row" style="text-align: center">
-        <div class="col-lg-8 offset-3">
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">First Name:</label>
-                <div class="col-lg-6">
-                    <input type="text" name="first-name"  class="form-control">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Last Name:</label>
-                <div class="col-lg-6">
-                    <input type="text" name="last-name"  class="form-control">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Email:</label>
-                <div class="col-lg-6">
-                    <input type="email" name="email"  class="form-control">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Password:</label>
-                <div class="col-lg-6">
-                    <input type="password" name="password"  class="form-control">
-                </div>
-                </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Phone:</label>
-                <div class="col-lg-6">
-                    <input type="number" name="phone"  class="form-control">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Date of Birth:</label>
-                <div class="col-lg-6">
-                    <input type="date" name="date"  class="form-control">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">Address:</label>
-                <div class="col-lg-6">
-                    <textarea name="address" id="" cols="47" rows="5"></textarea>
-                </div>
-        </div>
-            <div class="form-group row">
-                <label class="col-lg-2 col-form-label">Gender:</label>
-                <div class="col-lg-6">
-                    <label><input type="radio" name="gender">Male</label>
-                        <label><input type="radio" name="gender">Female</label>
-                </div>
+    
 
-            </div>
-            <div class="form-group row">
-                <label for="" class="col-lg-2 col-form-label">District:</label>
-                <div class="col-lg-6">
-                    <select name="district" id="">
-                        <option value="">Select the district</option>
-                        <option value="">Dhaka</option>
-                        <option value="">Dhaka</option>
-                        <option value="">Dhaka</option>
-                        <option value="">Dhaka</option>
-                        <option value="">Dhaka</option>
-                        <option value="">Dhaka</option>
-                    </select>
-                </div>
-            </div><br>
-            <div class="form-group" style="margin-left: 90px">
-                <input type="submit" class="btn btn-success">
-                <input type="reset" class="btn btn-danger">
-            </div>
+    <title>LoopLAB</title>
+  </head>
+  <body>
+   <h2 class="ml-4">Responsive Contact Form</h2>
+   <p class="ml-4">*=Required fields</p>
+   <div class="container pt-5">
+     <div class="row">
+       <div class="col-sm-12 col-md-12 col-lg-9">
+                <form>
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"><strong>*Name:</strong></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><input type="text" name="first_name" class="form-control" placeholder="First & Last"></div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"><strong>*Email:</strong></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><input type="email" name="email" class="form-control" placeholder="you@domain.com"></div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"><strong>*Phone:</strong></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><input type="text" name="phone" class="form-control" placeholder="(123)456-7890"></div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"><strong>*Message:</strong></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><textarea class="form-control" placeholder="Tell us your story"></textarea></div>
+                  </div>
 
 
-        </div>
-    </div>
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"><strong>*Human Test:</strong></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><br>6 + 6 = ?<br><br>
+                        <input type="text" name="" placeholder="Your Answer">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-md-3 col-lg-2 col-form-label"></label>
+                    <div class="col-sm-9 col-md-9 col-lg-7"><button type="button" class="btn btn-primary btn-block">SUBMIT</button></div>
+                  </div>
+
+                </form>     
 </div>
+     </div>
+   </div>
 
-
-
-
-
-
-<script src="js/bootstrap.min.js"></script>
-</body>
+    <!--  JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
