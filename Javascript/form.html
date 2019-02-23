@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 4.3.0</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 m-auto">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group-row">
+                        <label for="" class="col-form-label col-lg-3">First Name</label>
+                        <div class="col-lg-9">
+                            <input type="text" class="form-control" name="first_name" id="firstName">
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <label for="" class="col-form-label col-lg-3">Last Name</label>
+                        <div class="col-lg-9">
+                            <input type="text" class="form-control" name="last_name" id="lastName">
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <label for="" class="col-form-label col-lg-3">Full Name</label>
+                        <div class="col-lg-9">
+                            <input type="text" class="form-control" name="full_name" id="fullName">
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="form-group-row">
+                        <div class="col-lg-9 offset-3">
+                            <input type="submit" class="btn btn-info" name="btn" id="btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var btnElement = document.getElementById('btn');
+    btnElement.onclick = function () {
+        var first_name = document.getElementById('firstName').value;
+        var last_name = document.getElementById('lastName').value;
+        var full_name = first_name+' '+last_name;
+        document.getElementById('fullName').value = fullName;
+    }
+</script>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
