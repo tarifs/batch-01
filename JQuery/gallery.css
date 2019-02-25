@@ -1,0 +1,11 @@
+.main-image{
+    height: 350px;
+    width: 450px;
+    border: 1px solid;
+}
+
+.sub-image{
+    height: 90px;
+    width: 108px;
+    border: 1px solid;
+}
