@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<form action="" method="post" id="form">
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="first_name" id="firstName">
+                <span id="fsError" style="color: red"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="last_name" id="lastName">
+                <span id="lsError" style="color: red"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td><input type="text" name="email_address" id="emailAddress">
+                <span id="eError" style="color: red"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" id="password">
+                <input type="checkbox" onclick="myFunction()">Show Password
+                <span id="pError" style="color: red"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Confirm Password:</td>
+            <td><input type="password" name="confirm_password" id="confirmPassword">
+                <span id="cpError" style="color: red"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <span id="gError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>District:</td>
+            <td>
+                <select name="district" id="district">
+                    <option value="">Please Select Your District</option>
+                    <option value="">Dhaka</option>
+                    <option value="">Comilla</option>
+                    <option value="">Rajsahahi</option>
+                    <option value="">Chittagong</option>
+                </select>
+                <span id="dError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" id="btn" name="btn"></td>
+        </tr>
+    </table>
+</form>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="valid.js"></script>
+</body>
+</html>
