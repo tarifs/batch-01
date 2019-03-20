@@ -22,7 +22,7 @@ if (isset($_POST['btn']))
 
 
 <form action="" method="post">
-    <h1><?php echo $msg?></h1>
+    <h1 style="color: #005cbf"><?php echo $msg?></h1>
     <table>
         <tr>
             <td>Name</td>

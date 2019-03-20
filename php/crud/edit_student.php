@@ -4,7 +4,13 @@ use App\classes\Student;
 $id = $_GET['id'];
 $student = new Student();
 $result = $student->editStudentInfo($id);
-$student = mysqli_fetch_assoc($result);
+$getStudent = mysqli_fetch_assoc($result);
+
+if (isset($_POST['btn']))
+{
+    Student::updateStudentInfo($_POST);
+
+}
 
 ?>
 <table>
@@ -19,15 +25,18 @@ $student = mysqli_fetch_assoc($result);
     <table>
         <tr>
             <td>Name</td>
-            <td><input type="text" name="name" value="<?php echo $student['name']?>"></td>
+            <td>
+                <input type="text" name="name" value="<?php echo $getStudent['name']?>">
+                <input type="hidden" name="id" value="<?php echo $getStudent['id']?>">
+            </td>
         </tr>
         <tr>
             <td>Email</td>
-            <td><input type="text" name="email" value="<?php echo $student['email']?>"></td>
+            <td><input type="text" name="email" value="<?php echo $getStudent['email']?>"></td>
         </tr>
         <tr>
             <td>Mobile</td>
-            <td><input type="text" name="mobile" value="<?php echo $student['mobile']?>"></td>
+            <td><input type="text" name="mobile" value="<?php echo $getStudent['mobile']?>"></td>
         </tr>
         <tr>
             <td></td>
