@@ -14,6 +14,9 @@ class Login
         {
             $use = mysqli_fetch_assoc($result);
             if ($use){
+                session_start();
+                $_SESSION['id'] = $use ['id'];
+                $_SESSION['name'] = $use ['name'];
                 header('Location: add_student.php');
             }else{
                 $msg = "<div class='alert alert-danger'>Please use valid email and password</div>";

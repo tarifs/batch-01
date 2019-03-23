@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require_once "../vendor/autoload.php";
 use App\classes\Login;
 
@@ -21,6 +23,7 @@ if(isset($_GET['logout']))
 </table>
 
 <form action="" method="post">
+    <h1><?php echo $_SESSION['name']?></h1>
     <table>
         <tr>
             <td>Name</td>
