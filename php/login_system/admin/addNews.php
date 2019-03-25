@@ -6,6 +6,15 @@ if($_SESSION['id'] == NULL){
 
 require_once "../vendor/autoload.php";
 use App\classes\Login;
+use App\Classes\News;
+
+$msg = '';
+
+if (isset($_POST['btn']))
+{
+    $news = new News();
+    $msg = $news->saveNewsInfo();
+}
 
 $login = new Login();
 if(isset($_GET['logout'])){
@@ -28,6 +37,7 @@ if(isset($_GET['logout'])){
                     <h3 class="text-center">Add News</h3>
                 </div>
                 <div class="card-body">
+                    <div><h4><?php echo $msg?></h4></div>
 
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div class="form-group row">
@@ -51,8 +61,12 @@ if(isset($_GET['logout'])){
                         <div class="form-group row">
                             <label class="col-form-label col-md-4">Publication Status</label>
                             <div class="col-md-8">
-                                <input type="radio" name="status" value="1"> Published
-                                <input type="radio" name="status" value="0"> Unpublished
+                                <select name="status" id="" class="form-control">
+                                    <option value="">----- Select Status -----</option>
+                                    <option value="1">Published</option>
+                                    <option value="0">Unpublished</option>
+                                </select>
+
                             </div>
                         </div>
                         <div class="form-group row">

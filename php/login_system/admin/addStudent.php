@@ -7,6 +7,7 @@ if($_SESSION['id'] == NULL){
 require_once "../vendor/autoload.php";
 use App\classes\Login;
 
+
 $login = new Login();
 if(isset($_GET['logout'])){
     $login->adminLogout();

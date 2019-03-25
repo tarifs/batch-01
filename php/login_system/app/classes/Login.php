@@ -19,7 +19,7 @@ class Login
 
                 header('Location:addStudent.php');
             } else {
-                $message = "Please use valid email and password";
+                $message = "<div class='alert alert-danger'>Please use valid email and password</div>";
                 return $message;
             }
         } else {
