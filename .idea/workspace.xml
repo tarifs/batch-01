@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="2640de48-90ba-48da-b192-6a4e2d01f5d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/1st_class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/1st_class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/admin/add_student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/app/classes/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/app/classes/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/app/classes/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/app/classes/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/assets/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login_system/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login_system/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +31,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/post.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/login_system/admin/addNews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="e#7#64#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/login_system/admin/manageNews.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/login_system/app/classes/Connection.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/login_system/app/classes/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/login_system/admin/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -37,6 +80,11 @@
         <option value="$PROJECT_DIR$/php/function.php" />
         <option value="$PROJECT_DIR$/php/2nd_class.php" />
         <option value="$PROJECT_DIR$/php/post.php" />
+        <option value="$PROJECT_DIR$/php/login_system/admin/login.php" />
+        <option value="$PROJECT_DIR$/php/login_system/admin/add_student.php" />
+        <option value="$PROJECT_DIR$/php/login_system/admin/addNews.php" />
+        <option value="$PROJECT_DIR$/php/login_system/admin/manageNews.php" />
+        <option value="$PROJECT_DIR$/php/login_system/admin/includes/header.php" />
       </list>
     </option>
   </component>
@@ -57,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,15 +117,44 @@
               <item name="batch-01" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="batch-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="batch-01" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="login_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="batch-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="batch-01" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="login_system" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="batch-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="batch-01" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="login_system" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="batch-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="batch-01" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="login_system" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php/login_system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -106,17 +182,17 @@
       <option name="presentableId" value="Default" />
       <updated>1551670226149</updated>
       <workItem from="1551670227546" duration="3931000" />
+      <workItem from="1553487578218" duration="2458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12480000" />
+    <option name="totallyTimeSpent" value="14938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21197411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,13 +237,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/secound.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/secound.php" />
     <entry file="file://$PROJECT_DIR$/php/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -182,16 +252,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/.php" />
     <entry file="file://$PROJECT_DIR$/php/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="e#7#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/admin/addNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/admin/add_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/admin/manageNews.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/app/classes/Connection.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login_system/app/classes/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
