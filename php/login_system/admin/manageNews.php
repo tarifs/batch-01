@@ -6,12 +6,16 @@ if($_SESSION['id'] == NULL){
 
 require_once "../vendor/autoload.php";
 use App\classes\Login;
+<<<<<<< HEAD
 use App\Classes\News;
+=======
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
 
 $login = new Login();
 if(isset($_GET['logout'])){
     $login->adminLogout();
 }
+<<<<<<< HEAD
 
 $news = new News();
 $result = $news->getNewsInfo();
@@ -25,6 +29,8 @@ if (isset($_GET['delete']))
 }
 
 
+=======
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
 ?>
 <html>
 <head>
@@ -37,10 +43,15 @@ if (isset($_GET['delete']))
     <div class="row">
         <div class="col-md-8 m-auto">
             <div class="card">
+<<<<<<< HEAD
                 <?php echo $msg?>
                 <div class="card-body">
                     <table class="table">
 
+=======
+                <div class="card-body">
+                    <table class="table">
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
                         <tr>
                             <th>Sl No.</th>
                             <th>News Title</th>
@@ -48,6 +59,7 @@ if (isset($_GET['delete']))
                             <th>Publication Status</th>
                             <th>Action</th>
                         </tr>
+<<<<<<< HEAD
                         <?php $i=1;?>
                         <?php while ($news = mysqli_fetch_assoc($result)){?>
                         <tr>
@@ -61,6 +73,18 @@ if (isset($_GET['delete']))
                             </td>
                         </tr>
                         <?php }?>
+=======
+                        <tr>
+                            <td>Demo</td>
+                            <td>Demo</td>
+                            <td>Demo</td>
+                            <td>Demo</td>
+                            <td>
+                                <a href="">Edit</a>
+                                <a href="">Delete</a>
+                            </td>
+                        </tr>
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
                     </table>
                 </div>
             </div>

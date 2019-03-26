@@ -1,4 +1,9 @@
 <?php
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
 namespace App\classes;
 use App\Classes\Connection;
 
@@ -8,7 +13,11 @@ class News
 
     public function saveNewsInfo()
     {
+<<<<<<< HEAD
         $sql = "INSERT INTO news (news_title,news_description,news_image,status) VALUES ('$_POST[news_title]','$_POST[news_description]','$_POST[news_image]','$_POST[status]')";
+=======
+        $sql = "INSERT INTO news (news_title,news_description,news_image,status) VALUES ('$_POST[news_title]','$_POST[news_description]','$_POST[news_image]','$_POST[status]'";
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
 
         if (mysqli_query(Connection::dbConnection(),$sql))
         {
@@ -20,6 +29,7 @@ class News
         }
     }
 
+<<<<<<< HEAD
     public function getNewsInfo()
     {
         $sql = "SELECT * FROM news";
@@ -72,4 +82,6 @@ class News
         }
     }
 
+=======
+>>>>>>> 9de9e46a6167d114375f1945b4423b1bbd420df5
 }
