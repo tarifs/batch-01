@@ -9,19 +9,46 @@ class News
 
     public function saveNewsInfo()
     {
+        $directory = "../assets/images/";
+        $imageUrl = $directory . $_FILES['news_image']['name'];
+        $fileType = pathinfo($_FILES['news_image']['name'], PATHINFO_EXTENSION);
+
+        $check = getimagesize($_FILES['news_image']['tmp_name']);
 
 
-        $sql = "INSERT INTO news (news_title,news_description,news_image,status) VALUES ('$_POST[news_title]','$_POST[news_description]','$_POST[news_image]','$_POST[status]')";
+        if ($check) {
+            if (file_exists($imageUrl)) {
+                die('Image file already exists.please upload a new one');
+
+            } else {
+                if ($_FILES['news_image']['size'] > 100000) {
+                    die('File is too large.please upload a image within 10kb');
+                } else {
+                    if ($fileType != 'jpg' && $fileType != 'png') {
+                        die('Image type is not supported ! please upload a png or jpg file');
+                    } else {
+                        move_uploaded_file($_FILES['news_image']['tmp_name'], $imageUrl);
+
+                        $sql = "INSERT INTO news (news_title,news_description,news_image,status) VALUES ('$_POST[news_title]','$_POST[news_description]','$_POST[news_image]','$_POST[status]')";
 
 
-        if (mysqli_query(Connection::dbConnection(),$sql))
-        {
-            $msg = '<div class="alert alert-success">News Info Saved successfully</div>';
-            return $msg;
-        }else
-        {
-            die('Connection Problem'.mysqli_error(Connection::dbConnection()));
+                        if (mysqli_query(Connection::dbConnection(),$sql))
+                        {
+                            $msg = '<div class="alert alert-success">News Info Saved successfully</div>';
+                            return $msg;
+                        }else
+                        {
+                            die('Connection Problem'.mysqli_error(Connection::dbConnection()));
+                        }
+                    }
+                }
+            }
+        } else {
+            die('Please upload a image file');
         }
+
+
+
     }
 
 
